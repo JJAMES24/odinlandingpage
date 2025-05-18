@@ -1,11 +1,11 @@
 *{
-    color:white;
     font-family: Roboto, sans-serif;
     margin: 0;
 }
   
 .header
 {
+    color: white;
     background-color: #1F2937;
     height: 65dvh;
     padding-top: 2%;
@@ -21,6 +21,7 @@
 
 .navbar ul
 {
+    
     display:flex;
     gap: 30px;
     align-items: flex-end;
@@ -30,6 +31,7 @@
 
 .nav-link
 {
+    color: white;
     text-decoration: none;
 }
 
@@ -58,6 +60,7 @@
 }
 .hero-button
 {
+    color: white;
     background-color: #3882F6;
     border-radius: 10px;
     font-size:18px;
@@ -78,7 +81,51 @@
    height: 35dvh;
 }
 
+/* Second section */
+.part2
+{
+    color:#3882F6
+}
 
+.title
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+
+}
+
+
+.image-border
+{
+    width: 200px;
+    height: 200px;
+    margin-left:15%;
+    border:5px solid #3882F6;
+    border-radius: 25px;
+}
+
+.cards p
+{
+    color: #E5E7EB;
+    margin-left: 30%;
+    width:150px;
+    text-align: center;
+}
+
+.testimonials
+{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap:50px;
+    margin-bottom: 12%;
+}
 
 
 
