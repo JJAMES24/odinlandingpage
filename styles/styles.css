@@ -111,7 +111,8 @@
 
 .cards p
 {
-    color: #E5E7EB;
+    margin-top: 10px;
+    color: #1F2937;
     margin-left: 30%;
     width:150px;
     text-align: center;
@@ -124,8 +125,45 @@
     margin-right: auto;
     display: flex;
     gap:50px;
-    margin-bottom: 12%;
+    margin-bottom: 10%;
 }
+
+/* Third part */
+.part3
+{
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    height: 70dvh;
+
+
+}
+
+.quote-space
+{
+    display: block;
+    margin: auto;
+
+}
+.quote
+{
+    font-size: 36px;
+    font-weight: light;
+    font-style: oblique;
+    color:#a8a9aa;
+    margin-left:4%;
+    width:800px;
+    text-align: left;
+}
+
+.customer
+{
+    display: flex;
+    margin-top: 20px;
+    font-style:oblique;
+    justify-content: flex-end;
+}
+
 
 
 
