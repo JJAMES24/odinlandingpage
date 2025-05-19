@@ -19,6 +19,12 @@
     
 }
 
+.top-page h1
+{
+    font-size: 24px;
+    color: #F9FAFB;
+}
+
 .navbar ul
 {
     
@@ -163,6 +169,59 @@
     font-style:oblique;
     justify-content: flex-end;
 }
+
+/* Call to action */
+
+.last-cta
+{
+    color:white;
+    display:flex;
+    justify-content: center;
+    height: 100%;
+    
+}
+
+.last-cta-background
+{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 1200px;
+    height: 200px;
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.last-cta-button
+{
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    width: 9dvw;
+    height: 5dvh;
+
+}
+
+/* Footer */
+
+footer 
+{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height:80px;
+    align-items: center;
+
+}
+
+
+
+
+
 
 
 
